@@ -1,12 +1,12 @@
-function checkPrime(num){
-let count=0;
+function checkPrime(number){
+let factor=0;
    
-for(let i=0; i<=num; i++){
-if(num%i==0){
- count++;
+for(let i=0; i<=number; i++){
+if(number%i==0){
+ factor++;
 }
 }
-if(count==2){
+if(factor==2){
     return true;
 }
   return false;
